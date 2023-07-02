@@ -1,0 +1,14 @@
+name: GlavtoyGame
+version: '${project.version}'
+main: ru.glavtoy.glavtoygame.GlavtoyGame
+api-version: 1.16
+authors: [ glavtoy ]
+commands:
+  glavtoygame:
+    aliases:
+      - gg
+  play:
+    aliases:
+      - joingame
+      - join
+      - playgame

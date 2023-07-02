@@ -1,0 +1,170 @@
+game-duration: 900
+
+reward-for-kill: 15
+
+countdown: 60
+
+coins-reward-for-win: 100
+exp-reward-for-win: 25
+
+kill-message-1: "&7Вы убили игрока &6{player} &7и получили &a${reward}&7. Ваш баланс: &a${balance}"
+kill-message-2: "&7Вас убил игрок &c{player}"
+kill-message-3: "&7Игрок &6{player} &7был убит &c{killer}"
+kill-message-4: "&7Игрок &6{player} &7умер"
+
+full-game: "&cИгра заполнена!"
+
+level-up-title: "&aНовый уровень!"
+level-up-subtitle: "&7Вы получили &e{level} &7уровень&6!"
+
+block-command: "&cВ данный момент вы не можете использовать команды!"
+
+full-health: "&cВы здоровы!"
+
+bossbar-countdown: "&6До начала игры &a{s} &6секунд"
+bossbar-wait: "&6Ожидание игроков.. &7(&b{p}&7/&b{max}&7)"
+bossbar-game: "&6Конец игры: &a{m}мин {s}сек &7| &fГлавный убийца: &6{leader} &7(&c{kills}&7)"
+
+actionbar-stats-game: "&fУбийств: &c{kills} &7| &fДенег: &a${balance}"
+actionbar-stats-main-lobby: "&fМонет: &6{coins} &7| &fПобед: &6{wins} &7| &fУбийств: &6{kills}"
+
+win-message-1: "&aВы победили и набрали больше всех убийств! &6+{coins} монет &7| &b+{exp} опыта"
+win-message-2: "&bИгрок &a{player} &bпобедил и набрал больше всех убийств!"
+
+game-start: "&aИгра началась! &bКак говорится, победит сильнейший!"
+
+join-message: "&fИгрок &6{player} &fприсоединился &7(&b{p}&7/&b{max}&7)"
+leave-message: "&fИгрок &6{player} &fотключился &7(&b{p}&7/&b{max}&7)"
+
+title-countdown:
+  15: "&c15"
+  10: "&c10"
+  5: "&c5"
+  4: "&c4"
+  3: "&b3"
+  2: "&e2"
+  1: "&a1"
+  start: "&aИгра началась!"
+
+chat-countdown: "&6Игра начнётся через &a{count} &6секунд&a!"
+
+only-players: "&cЭта команда только для игроков!"
+no-args: "&cНедостаточно аргументов!"
+no-perms: "&cНедостаточно прав!"
+
+no-money: "&cНедостаточно денег! Ваш баланс: &a${balance}"
+
+already-connected: "&cВы уже подключены к игре!"
+
+no-free-map: "&cНет доступных игр!"
+
+no-map: "&cКарты &6{map} &cне существует!"
+already-map: "&cКарта &6{map} &cуже существует!"
+
+create-success: "&aКарта &6{map} &aуспешно создана!"
+set-min-players-success: "&aМинимальное значение в &6{min} &aигроков успешно установлено для карты &6{map}&a!"
+number-format-exception-error: "&cЗначение должно быть целочисленным!"
+negative-number-error: "&cЗначение не должно быть отрицательным!"
+set-max-players-success: "&aМаксимальное значение в &6{max} &aигроков успешно установлено для карты &6{map}&a!"
+set-spawn-success: "&aТочка спавна &6{spawn} &aдля карты &6{map} &aуспешно установлена!"
+set-waitinglobby-success: "&aВы успешно установили лобби ожидания для карты &6{map}&a!"
+set-mainlobby-success: "&aВы успешно установили главное лобби!"
+delete-success: "&aКарта &6{map} &aуспешно удалена!"
+spawns-limit: "&cВы не можете установить точек спавна больше, чем максимальное количество игроков для карты &6{map}&c!"
+
+leave-item:
+  custom-name: "&6Выйти в лобби"
+  item-id: COMPASS
+  slot: 4
+
+shop-menu:
+  inventory-size: 45
+  inventory-title: "Магазин"
+  open-item:
+    custom-name: "&6Магазин"
+    item-id: DIAMOND
+    slot: 4
+  items:
+    STONE_SWORD:
+      custom-name: "&6Каменный меч"
+      price: 75
+      slot: 12
+      amount: 1
+      lore:
+        - " "
+        - "&fСтоимость: &6${cost}"
+        - " "
+        - "&eНажмите, чтобы купить"
+    IRON_SWORD:
+      custom-name: "&6Железный меч"
+      price: 150
+      slot: 13
+      amount: 1
+      lore:
+        - " "
+        - "&fСтоимость: &6${cost}"
+        - " "
+        - "&eНажмите, чтобы купить"
+    DIAMOND_SWORD:
+      custom-name: "&6Алмазный меч"
+      price: 300
+      slot: 14
+      amount: 1
+      lore:
+        - " "
+        - "&fСтоимость: &6${cost}"
+        - " "
+        - "&eНажмите, чтобы купить"
+    CHAINMAIL_HELMET:
+      custom-name: "&6Кольчужный сет"
+      price: 150
+      slot: 21
+      amount: 1
+      lore:
+        - " "
+        - "&fСтоимость: &6${cost}"
+        - " "
+        - "&eНажмите, чтобы купить"
+    IRON_HELMET:
+      custom-name: "&6Железный сет"
+      price: 300
+      slot: 22
+      amount: 1
+      lore:
+        - " "
+        - "&fСтоимость: &6${cost}"
+        - " "
+        - "&eНажмите, чтобы купить"
+    DIAMOND_HELMET:
+      custom-name: "&6Алмазный сет"
+      price: 450
+      slot: 23
+      amount: 1
+      lore:
+        - " "
+        - "&fСтоимость: &6${cost}"
+        - " "
+        - "&eНажмите, чтобы купить"
+    MAGMA_CREAM:
+      custom-name: "&6Шар здоровья"
+      price: 45
+      slot: 31
+      amount: 1
+      lore:
+        - " "
+        - "&fСтоимость: &6${cost}"
+        - " "
+        - "&eНажмите, чтобы купить"
+  background:
+    WHITE_STAINED_GLASS_PANE:
+      slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+
